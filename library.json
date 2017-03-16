@@ -1,0 +1,125 @@
+[
+  {
+    "model": "core.author",
+    "pk": 1,
+    "fields": {
+      "name": "Arthur Conan Doyle"
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 2,
+    "fields": {
+      "name": "Harry Harrison"
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 3,
+    "fields": {
+      "name": "Piter Parker"
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 4,
+    "fields": {
+      "name": "J. K. Rowling"
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 5,
+    "fields": {
+      "name": "Robert Anson Heinlein"
+    }
+  },
+  {
+    "model": "core.author",
+    "pk": 6,
+    "fields": {
+      "name": "Fyodor Dostoyevsky"
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "title": "The Adventures of Sherlock Holmes",
+      "page_count": 1324
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "title": "The Hound of the Baskervilles",
+      "page_count": 150
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 3,
+    "fields": {
+      "author": 2,
+      "title": "The Stainless Steel Rat Saves the World",
+      "page_count": 567
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 4,
+    "fields": {
+      "author": 3,
+      "title": "Photography",
+      "page_count": 1356
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 5,
+    "fields": {
+      "author": 4,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "page_count": 127
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 6,
+    "fields": {
+      "author": 4,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "page_count": 300
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 7,
+    "fields": {
+      "author": 5,
+      "title": "Starship Troopers",
+      "page_count": 620
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 8,
+    "fields": {
+      "author": 5,
+      "title": "Methuselah's Children",
+      "page_count": 254
+    }
+  },
+  {
+    "model": "core.book",
+    "pk": 9,
+    "fields": {
+      "author": 6,
+      "title": "Crime and Punishment",
+      "page_count": 721
+    }
+  }
+]
